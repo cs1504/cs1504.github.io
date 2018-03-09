@@ -7,8 +7,7 @@ author: '0xl2oot'
 header-img: '//i.loli.net/2018/03/09/5aa21d7ee7e14.jpg'
 header-mask: 0.3
 catalog: true
-tags:
-    - 软件工程
+tags: [软件工程]
 ---
 
 
