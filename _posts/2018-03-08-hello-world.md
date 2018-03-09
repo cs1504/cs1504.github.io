@@ -1,15 +1,14 @@
 ---
-layout:     post
-title:      "这是一个模板，也是一个 Markdown 语法说明"
-subtitle:   "这是子标题"
-description: "这是一段关于文章的描述，可有可无，如果这里是空的，则会显示文章的前两百个字符。"
-date:       2018-03-09
-author:     "0xl2oot"
-header-img: "//i.loli.net/2018/03/09/5aa21d7ee7e14.jpg"
-header-mask:  0.3
-catalog:    true
-tags:
-    - 技术
+layout: post
+title: '这是一个模板，也是一个 Markdown 语法说明'
+subtitle: '这是子标题'
+description: '这是一段关于文章的描述，可有可无，如果没有这一行，则会显示文章的前两百个字符。'
+date: 2018-03-09
+author: '0xl2oot'
+header-img: '//i.loli.net/2018/03/09/5aa21d7ee7e14.jpg'
+header-mask: 0.3
+catalog: true
+tags: [技术]
 ---
 
 README
