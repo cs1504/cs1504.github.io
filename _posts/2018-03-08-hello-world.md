@@ -11,6 +11,9 @@ catalog: true
 tags: [技术]
 ---
 
+> 这篇文章来自 https://github.com/guodongxiaren/README
+> 这篇文章讲解了基本的 Markdown 的语法，也许网上还有更加详尽的讲解，这里仅以这篇文章为例，这篇文章的 Markdown 原文请见[这里](https://raw.githubusercontent.com/cs1504/cs1504.github.io/master/_posts/2018-03-08-hello-world.md)
+
 README
 ===========================
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
