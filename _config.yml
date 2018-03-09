@@ -26,10 +26,10 @@ plugins:
     - jekyll-feed
     - jemoji
 
-markdown: kramdown
+highlighter: rouge
+markdown: kramdown      
 kramdown:
     input: GFM
-    highlighter: rouge
 
 permalink: pretty
 paginate: 10
@@ -60,15 +60,3 @@ sidebar-avatar: /img/avatar.jpg     # use absolute URL.
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-# Friends
-friends: [
-    {
-        title: "0xl2oot",
-        href: "https://0xl2oot.cn/"
-    },
-    {
-        title: "Wait for you",
-        href: "http://Wait for you"
-    }
-]
