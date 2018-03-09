@@ -1,0 +1,9 @@
+{% if site.data.friends %}
+<hr>
+<h5>友情链接</h5>
+<ul class="list-inline">
+    {% for friend in site.data.friends %}
+    <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}

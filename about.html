@@ -1,0 +1,15 @@
+---
+layout: page
+title: "关于"
+description: "Hey, this is CS 1504."
+header-img: "img/about-bg.jpg"
+multilingual: true
+---
+
+<div class="zh post-container">
+    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+</div>
+
+<!-- comments  -->
+{% include comments.html %}

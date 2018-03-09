@@ -1,0 +1,5 @@
+_site
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*.sh

@@ -1,0 +1,74 @@
+# Site settings
+title: 极客 1504
+SEOTitle: BUCT CS 1504
+header-img: "img/home-bg.jpg"
+email: buctcs1504@163.com
+description: "这里是北京化工大学 - 极客 1504 班"
+keyword: "极客"
+url: "https://cs1504.github.io"
+baseurl: ""
+
+
+# SNS settings
+RSS: true
+
+# weibo_username:     
+# zhihu_username:     
+github_username: cs1504
+# twitter_username:   
+# facebook_username:  
+
+
+plugins:
+    - rouge
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+
+markdown: kramdown
+kramdown:
+    input: GFM
+    highlighter: rouge
+
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+comments_provider: gitalk
+gitalk:
+    owner: 0xl2oot
+    repo: blog-comments
+    clientID: f8e089a7e895625a0556
+    clientSecret: 1f55fd61b1098ac55a8bf12f288cdbc6c43d9697
+
+
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "一个温暖的家"
+sidebar-avatar: /img/avatar.jpg     # use absolute URL.
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# Friends
+friends: [
+    {
+        title: "0xl2oot",
+        href: "https://0xl2oot.cn/"
+    },
+    {
+        title: "Wait for you",
+        href: "http://Wait for you"
+    }
+]
