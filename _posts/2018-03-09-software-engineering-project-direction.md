@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      "软件工程课程设计内容与要求"
-subtitle:   "Software Engineering Project"
+title:      '软件工程课程设计内容与要求'
+subtitle:   'Software Engineering Project'
 description: ""
 date:       2018-03-09
-author:     "0xl2oot"
-header-img: "//i.loli.net/2018/03/09/5aa21d7ee7e14.jpg"
+author:     '0xl2oot'
+header-img: '//i.loli.net/2018/03/09/5aa21d7ee7e14.jpg'
 header-mask:  0.3
 catalog:    true
 tags:
