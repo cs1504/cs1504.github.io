@@ -163,7 +163,7 @@ Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账
 看到这个网站 [Medium](http://medium.com) 的推荐标签非常的炫酷，所以我将他加了进来。
 这个模块现在是独立的，可以呈现在所有页面，包括主页和发表的每一篇文章标题的头上。
 
-```
+```yaml
 # Featured Tags
 featured-tags: true  
 featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
@@ -179,7 +179,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 设置是在 `/_data/friends.yml`文件里面
 
-```
+```yaml
 - title: "0xl2oot"
   href: "https://0xl2oot.cn/"
 ```
@@ -188,7 +188,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 由于多说已经下架，别的也不怎么好用，所以采用 Gitalk 作为博客的评论系统。这里是我的设置，你应当去自己申请一个 ID。
 
-```
+```yaml
 comments_provider: gitalk
 gitalk:
     owner: 0xl2oot
@@ -201,7 +201,7 @@ gitalk:
 
 网站分析，现在仅支持 Google Analytics。需要去官方网站注册一下，然后将返回的code贴在下面：
 
-```yml
+```yaml
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
 ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
