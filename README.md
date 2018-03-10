@@ -2,7 +2,32 @@
 
 本 Blog 基于 [@Huxpro](https://github.com/Huxpro/) 的 [Blog](https://github.com/Huxpro/huxpro.github.io) 修改，修改内容详见[修改内容](#修改内容)
 
-## 如何向 Blog 提交文章
+## 目录
+
+* [如何向Blog提交文章](#如何提交文章)
+* [修改内容](#修改内容)
+* [说明文档](#说明文档)
+	* 开始
+		* [环境要求](#environment)
+		* [开始](#get-started)
+		* [写一篇博文](#write-posts)
+	* 组件
+		* [侧边栏](#sidebar)
+		* [迷你关于我](#mini-about-me)
+		* [推荐标签](#featured-tags)
+		* [好友链接](#friends)
+	* 评论与 Google/Baidu Analytics
+		* [评论](#comment)
+		* [网站分析](#analytics) 
+	* 高级部分
+		* [自定义](#customization)
+		* [标题底图](#header-image)
+		* [搜索展示标题-头文件](#seo-title)
+* [致谢](#致谢)
+
+
+
+## 如何提交文章
 
 打开 [https://github.com/cs1504/cs1504.github.io](https://github.com/cs1504/cs1504.github.io)
 
@@ -101,18 +126,16 @@ Jekyll官方网站还有很多的参数可以调，比如设置文章的链接�
 
 yaml 头文件长这样:
 
-```
+```yaml
 ---
-layout:     post
-title:      "Hello 2015"
-subtitle:   "Hello World, Hello Blog"
-date:       2015-01-29 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-2015.jpg"
-tags:
-    - Life
+layout: post
+title: 'Hello 2015'
+subtitle: 'Hello World, Hello Blog'
+date: 2015-01-29 12:00:00
+author: 'Hux'
+header-img: 'img/post-bg-2015.jpg'
+tags: [tag1, tag2]
 ---
-
 ```
 
 #### SideBar
@@ -148,8 +171,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 唯一需要注意的是 `featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
  
-内部有一个条件模板 `{% if tag[1].size > site.featured-condition-size %}` 是用来做筛选过滤的.
-
+内部有一个条件模板 `{% if tag[1].size > site.featured-condition-size %}` 是用来做筛选过滤的. 
 
 #### Friends
 
@@ -162,12 +184,18 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
   href: "https://0xl2oot.cn/"
 ```
 
-
 #### Comment
 
-由于多说已经下架，别的也不怎么好用，所以采用 Gitalk 作为博客的评论系统。
+由于多说已经下架，别的也不怎么好用，所以采用 Gitalk 作为博客的评论系统。这里是我的设置，你应当去自己申请一个 ID。
 
-
+```
+comments_provider: gitalk
+gitalk:
+    owner: 0xl2oot
+    repo: blog-comments
+    clientID: f8e089a7e895625a0556
+    clientSecret: 1f55fd61b1098ac55a8bf12f288cdbc6c43d9697
+```
 
 #### Analytics
 
