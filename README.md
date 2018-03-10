@@ -9,7 +9,7 @@
 ![create-new-file.png](https://i.loli.net/2018/03/09/5aa297685f20c.png)
 
 点击 create new file 按钮，出现下面的页面。  
-在这个页面中蓝色框框中说，你在一个你没有权限修改的项目里，因此，你复制了一份代码仓库到自己的账号上，你可以在自己的账号上进行修改，然后 commit，pull
+在这个页面中蓝色框框中说，你在一个你没有权限修改的项目里，因此，你复制了一份代码仓库到自己的账号上，你可以在自己的账号上进行修改，然后 commit，pull
 
 ![path-and-content.png](https://i.loli.net/2018/03/09/5aa297946009c.png)
 
@@ -17,7 +17,7 @@
 
 ![create-pull-request.png](https://i.loli.net/2018/03/09/5aa29772a4c09.png)
 
-之后会出现下面的页面，要求你填写 pull 的一些信息，以便告诉原始代码仓库的主人，你在这次修改中干了什么。
+之后会出现下面的页面，要求你填写 pull 的一些信息，以便告诉原始代码仓库的主人，你在这次修改中干了什么。
 
 ![open-a-pull-request.png](https://i.loli.net/2018/03/09/5aa297771cfb0.png)
 
